@@ -1,0 +1,259 @@
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .modal-icons p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #0e2536;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+      }
+
+      .description{
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .description p{
+        width:80px;
+        padding-left: 20px;
+      }
+
+      
+      /* notes */
+      .input{
+       height:15vh;
+       width:324px;
+       margin-left: 20px;
+       margin-top: 10px;
+      }
+
+      .notes-h1{
+        font-family: "Menlo", monospace;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+        margin-left: 20px;
+      }
+      .list-item{
+       list-style: none;
+       margin-left: -20px;
+       border-bottom: 0.5px solid #dadada;
+       padding: 20px 0px 20px 0px;
+      }
+      .list-item .delete-item{
+        margin-left: 5px;
+      }
+      .display-error{
+        display: inline-block;
+        height: 10px;
+        visibility: hidden;
+        margin-left: 20px;
+        padding-top:5px 0px 0px 0px;
+        color: #B157DC;
+        font-weight:600;
+      }
+      
+      .notes-h1{
+        margin-top:10px;
+      }
+
+      .buttons{
+        display: flex;
+        justify-content:start;
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+
+      button{
+        padding:10px 10px 10px 10px;
+        border:0.5px solid #000000;
+        border-radius: 2px;
+        cursor: pointer;
+      }
+
+      .buttons .add-btn,.get-joke,.get-weather{
+        background-color:#4991c4;
+        color: aliceblue;
+        border:none;
+        font-weight:bold;
+      }
+
+      .back-btn{
+        margin-left: 30px;
+      }
+
+      .err p{
+        margin-left: 20px;
+      }
+
+      i{
+        cursor: pointer;
+      }
+
+
+      /* get a joke */
+      .display-joke{
+         margin-left: 20px;
+         padding:10px;
+         background-color: #f1efef;
+         margin-bottom: 20px;
+         min-height: 130px;
+         font-weight: 500;
+         line-height: 1.6rem;
+         margin-right:20px;
+      }
+
+
+     /* Timer  */
+
+     .timerDisplay{
+      margin-left: 20px;
+      font-size: 2.5em;
+      padding: 10px 0px 10px 10px;
+      margin-bottom: 30px;
+     }
+
+     .timer-btns{
+       display: flex;
+       margin-bottom: 30px;
+       margin-right: 10px;
+       margin-left: 20px;
+     }
+
+     .timer-btns button{
+       margin-left:10px;
+     }
+
+     #button-start{
+       background-color: #84D5F8;
+       background-color:#4991c4;
+        color: aliceblue;
+        border:none;
+        font-weight:bold;
+     }
+
+     #button-pause{
+      background-color: #bc7ddb;
+      color: aliceblue;
+      border:none;
+      font-weight:bold;
+    }
+
+    .timer-back-btn{
+      padding: 7px;
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+
+
+      /* Weather */
+      .container{
+        width:384px;
+      }
+      .weather-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left:20px;
+      }
+      .temperature{
+        justify-content: start;
+        flex-direction: column;
+      }
+      .degrees-section{
+        display:flex;
+        align-items: center;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+        margin-top: -1rem;
+      }
+      .degrees-section span{
+        font-size: 2em;
+        margin:0.5rem;
+      }
+      .degrees-section h2{
+        font-size: 2em;
+      }
+      .location-timezone{
+        font-size: 1.4em;
+        font-weight: normal;
+      }
+      .temperature .temperature-description{
+        font-size: 1.2rem;
+        /* font-weight: 600; */
+        margin-bottom: 1.5rem;
+        font-weight: normal;
+      }

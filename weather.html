@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Availoryx | Weather</title>
+  <link
+  href="https://fonts.googleapis.com/css?family=Open+Sans"
+  rel="stylesheet"
+  type="text/css"
+  />
+  <link rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" 
+  referrerpolicy="no-referrer" 
+  />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <div class="container">
+  <div class="modal-header">
+    <h1 class="logo">
+      <img class="logo-icon" src="images/icon_150.jpg" alt="Availoryx icon" />Availoryx
+    </h1>
+  </div>
+
+    <div class="weather-container">
+    <div class="location">
+      <h2 class="location-timezone">Timezone</h2>
+    </div>
+    <div class="temperature">
+        <div class="degrees-section">
+         <h2 class="temperature-degree">00</h2>
+         <span>&#176; F</span>
+        </div>
+      <div class="temperature-description"></div>
+    </div>
+    </div>
+  
+    <div class="buttons">
+      <button class="get-weather">Get temperature</button>
+      <a href="popup.html"><button class="back-btn">Back</button></a>
+    </div>
+  </div>
+
+  <script src="weather.js"></script>
+
+</body>
+</html>
